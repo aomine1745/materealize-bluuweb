@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize/materialize.css"  media="screen,projection">
+	<!--My Styles-->
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Materealize - Forms</title>
+</head>
+<body>
+	<div class="container">
+		<h1 class="lime-text text-accent-3 center-align">Forms!!</h1>
+
+		<div class="row section">
+			<form class="col s12" autocomplete="off">
+				<div class="row card-panel">
+					<div class="input-field col s6">
+						<input type="text" id="name" class="validate" required>
+						<label for="name">Name</label>
+					</div>
+					<div class="input-field col s6">
+						<input type="text" id="surname" class="validate" required>
+						<label for="surname">Surname</label>
+					</div>
+					<div class="input-field col s8">
+						<input type="email" id="email" class="validate" required>
+						<label for="email">Email</label>
+					</div>
+					<div class="input-field col s4">
+						<input type="number" id="phone" class="validate" required>
+						<label for="phone">Phone</label>
+					</div>
+					<button class="btn blue" type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+	<!--JavaScript at end of body for optimized loading-->
+	<script type="text/javascript" src="js/materialize/materialize.js"></script>
+	<script src="js/initialization.js"></script>
+</body>
+</html>
